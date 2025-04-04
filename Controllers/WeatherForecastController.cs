@@ -53,14 +53,14 @@ namespace WebApplication7.Controllers
             }
         }
 
-        [HttpPut("UpdateUserName", Name = "UpdateUserName")]
-        public async Task<ActionResult> UpdateUserName([FromBody] UserData userData)
+        [HttpPut("UpdateUser", Name = "UpdateUser")]
+        public async Task<ActionResult> UpdateUser([FromBody] UserData userData)
         {
             try
             {
-                if (userData.Id <= 0 || string.IsNullOrEmpty(userData.NewName))
+                if (userData.Id <= 0 || string.IsNullOrEmpty(userData.Login) || string.IsNullOrEmpty(userData.Password))
                 {
-                    return BadRequest("Идентификатор пользователя должен быть положительным, а новое имя не должно быть пустым.");
+                    return BadRequest("Некорректные данные пользователя. Убедитесь, что ID, логин и пароль указаны.");
                 }
 
                 User updatedUser = new User
@@ -68,25 +68,61 @@ namespace WebApplication7.Controllers
                     Id = userData.Id,
                     Login = userData.Login,
                     Password = userData.Password,
-                    Name = userData.NewName 
+                    Name = userData.NewName
                 };
 
-                bool result = await _supabaseContext.UpdateUserName(_supabaseClient,updatedUser.Id, updatedUser.Name);
+                bool result = await _supabaseContext.UpdateUser(_supabaseClient, updatedUser);
 
                 if (result)
                 {
-                    return Ok("Имя пользователя успешно обновлено");
+                    return Ok("Пользователь успешно обновлен.");
                 }
                 else
                 {
-                    return BadRequest("Не удалось обновить имя пользователя в БД");
+                    return BadRequest("Не удалось обновить пользователя в БД.");
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest("Неизвестная ошибка");
+                Console.Error.WriteLine($"Ошибка: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при обновлении пользователя.");
             }
         }
+
+        [HttpDelete("DeleteUser/{userId}", Name = "DeleteUser")]
+        public async Task<ActionResult> DeleteUser(int userId)
+        {
+            try
+            {
+                if (userId <= 0)
+                {
+                    return BadRequest("Некорректный ID пользователя.");
+                }
+
+                bool result = await _supabaseContext.DeleteUser(_supabaseClient, userId);
+
+                if (result)
+                {
+                    return Ok("Пользователь успешно удален.");
+                }
+                else
+                {
+                    return NotFound("Пользователь с указанным ID не найден.");
+                }
+            }
+            catch (ApplicationException ex)
+            {
+                Console.Error.WriteLine($"Ошибка: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при удалении пользователя.");
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Неожиданная ошибка: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Произошла неожиданная ошибка.");
+            }
+        }
+
+
     }
 
     public class UserData
