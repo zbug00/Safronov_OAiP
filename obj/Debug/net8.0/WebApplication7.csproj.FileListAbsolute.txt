@@ -1,0 +1,98 @@
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.csproj.AssemblyReference.cache
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.AssemblyInfoInputs.cache
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.AssemblyInfo.cs
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.csproj.CoreCompileInputs.cache
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\appsettings.json
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\WebApplication7.exe
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\WebApplication7.deps.json
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\WebApplication7.runtimeconfig.json
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\WebApplication7.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\WebApplication7.pdb
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\MimeMapping.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Core.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Functions.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Gotrue.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Postgrest.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Realtime.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Supabase.Storage.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\IS\source\repos\API\API\bin\Debug\net8.0\Websocket.Client.dll
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication7.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication7.props
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication7.props
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication7.props
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\scopedcss\bundle\WebApplication7.styles.css
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebAppli.3A2E5FF3.Up2Date
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.dll
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\refint\WebApplication7.dll
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.pdb
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\WebApplication7.genruntimeconfig.cache
+C:\Users\IS\source\repos\API\API\obj\Debug\net8.0\ref\WebApplication7.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\appsettings.json
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\WebApplication7.exe
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\WebApplication7.deps.json
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\WebApplication7.runtimeconfig.json
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\WebApplication7.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\WebApplication7.pdb
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\MimeMapping.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Core.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Functions.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Gotrue.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Postgrest.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Realtime.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Supabase.Storage.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\bin\Debug\net8.0\Websocket.Client.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.csproj.AssemblyReference.cache
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.AssemblyInfoInputs.cache
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.AssemblyInfo.cs
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.csproj.CoreCompileInputs.cache
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication7.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication7.props
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication7.props
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication7.props
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\scopedcss\bundle\WebApplication7.styles.css
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.csproj.CopyComplete
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\refint\WebApplication7.dll
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.pdb
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\WebApplication7.genruntimeconfig.cache
+C:\Users\IS\Desktop\Новая папка (5)\API\obj\Debug\net8.0\ref\WebApplication7.dll

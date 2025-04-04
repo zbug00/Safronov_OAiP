@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "WebApplication7.Controllers.WeatherForecastController",
+    "Method": "GetAllUsers",
+    "RelativePath": "WeatherForecast/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplication7.Controllers.WeatherForecastController",
+    "Method": "InsertUser",
+    "RelativePath": "WeatherForecast/InsertUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "WebApplication7.Controllers.UserData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication7.Controllers.WeatherForecastController",
+    "Method": "UpdateUserName",
+    "RelativePath": "WeatherForecast/UpdateUserName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userData",
+        "Type": "WebApplication7.Controllers.UserDataOnUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
