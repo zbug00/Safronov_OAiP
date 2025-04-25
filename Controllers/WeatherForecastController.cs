@@ -44,6 +44,8 @@ namespace WebApplication7.Controllers
                 Login = userData.Login,
                 Password = userData.Password,
                 Name = userData.Name,
+                Age = userData.Age,
+                Email = userData.email,
                 city_id = userData.city_id
             };
 
@@ -99,6 +101,8 @@ namespace WebApplication7.Controllers
                     Login = userData.Login,
                     Password = userData.Password,
                     Name = userData.Name,
+                    Age = userData.Age,
+                    Email = userData.email,
                     city_id = userData.city_id
                 };
 
@@ -273,6 +277,13 @@ namespace WebApplication7.Controllers
 
         [JsonProperty("newName")]
         public string Name { get; set; }
+
+        [JsonProperty("age")]
+        public int Age { get; set; }
+
+        [JsonProperty("email")]
+        public string email { get; set; }
+
         [JsonProperty("City_Id")]
         public int city_id {  get; set; }
     }

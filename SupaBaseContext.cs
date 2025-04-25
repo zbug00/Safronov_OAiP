@@ -55,6 +55,8 @@ namespace WebApplication7
                                      .Set(user => user.Login, updatedUser.Login)
                                      .Set(user => user.Password, updatedUser.Password)
                                      .Set(user => user.Name, updatedUser.Name)
+                                     .Set(user => user.Age, updatedUser.Age)
+                                     .Set(user => user.Email, updatedUser.Email)
                                      .Update();
 
                 return true;
