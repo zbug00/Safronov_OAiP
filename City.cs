@@ -1,5 +1,4 @@
-﻿
-using Supabase.Postgrest.Models;
+﻿using Supabase.Postgrest.Models;
 using Supabase.Postgrest.Attributes;
 
 

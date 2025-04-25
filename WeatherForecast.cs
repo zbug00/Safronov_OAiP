@@ -1,4 +1,4 @@
-namespace WebApplication7
+/*namespace WebApplication7
 {
     public class WeatherForecast
     {
@@ -11,3 +11,4 @@ namespace WebApplication7
         public string? Summary { get; set; }
     }
 }
+*/

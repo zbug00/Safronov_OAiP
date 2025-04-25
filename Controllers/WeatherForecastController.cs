@@ -1,9 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Supabase;
-using Supabase.Gotrue;
-using Supabase.Interfaces;
-using WebApplication7;
 
 namespace WebApplication7.Controllers
 {
@@ -47,7 +43,8 @@ namespace WebApplication7.Controllers
                 Id = userData.Id,
                 Login = userData.Login,
                 Password = userData.Password,
-                Name = userData.Name
+                Name = userData.Name,
+                city_id = userData.city_id
             };
 
             bool result = await _supabaseContext.InsertUsers(_supabaseClient, newUser);
@@ -101,7 +98,8 @@ namespace WebApplication7.Controllers
                     Id = userData.Id,
                     Login = userData.Login,
                     Password = userData.Password,
-                    Name = userData.Name
+                    Name = userData.Name,
+                    city_id = userData.city_id
                 };
 
                 bool result = await _supabaseContext.UpdateUser(_supabaseClient, updatedUser);
@@ -119,6 +117,39 @@ namespace WebApplication7.Controllers
             {
                 Console.Error.WriteLine($"Ошибка: {ex.Message}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при обновлении пользователя.");
+            }
+        }
+
+        [HttpPut("UpdateUserName", Name = "UpdateUserName")]
+        public async Task<ActionResult> UpdateUserName([FromBody] UserNameUpdateRequest request)
+        {
+            try
+            {
+                if (request.Id <= 0 || string.IsNullOrEmpty(request.Name))
+                {
+                    return BadRequest("Некорректные данные. Убедитесь, что указан ID и новое имя.");
+                }
+                User updatedUserName = new User
+                {
+                    Id = request.Id,
+                    Name = request.Name
+                };
+
+                bool result = await _supabaseContext.UpdateUserName(_supabaseClient, updatedUserName);
+
+                if (result)
+                {
+                    return Ok("Имя пользователя успешно обновлено.");
+                }
+                else
+                {
+                    return BadRequest("Не удалось обновить имя пользователя в БД.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Ошибка: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при обновлении имени пользователя.");
             }
         }
 
@@ -155,7 +186,6 @@ namespace WebApplication7.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "Произошла ошибка при обновлении города.");
             }
         }
-
 
         [HttpDelete("DeleteCity", Name = "DeleteCity")]
         public async Task<ActionResult> DeleteCity(int cityId)
@@ -224,6 +254,12 @@ namespace WebApplication7.Controllers
         }
     }
 
+    public class UserNameUpdateRequest
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+
     public class UserData
     {
         [JsonProperty("id")]
@@ -237,6 +273,8 @@ namespace WebApplication7.Controllers
 
         [JsonProperty("newName")]
         public string Name { get; set; }
+        [JsonProperty("City_Id")]
+        public int city_id {  get; set; }
     }
 
 
